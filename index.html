@@ -43,6 +43,54 @@
         </ul>
     </div>
 
+    <form action="#" method="post" enctype="multipart/form-data">
+
+        <br />
+        <div>
+            <p>Имя</p>
+            <input tabindex="1" type="text" name="name" value="" placeholder="Имя" />
+        </div>
+
+        <br />
+        <div>
+            <p>Телеграм</p>
+            <input tabindex="2" name="telegram" value="" placeholder="Телеграм" />
+        </div>
+
+        <br />
+        <div>
+            <p>Почта</p>
+            <input tabindex="3" name="email" value="" placeholder="Почта" />
+        </div>
+
+        <div>
+            <p>Выберите услугу</p>
+            <p><input tabindex="4" checked type="radio" name="choice" value="consultation" /> Консультация по содержанию
+            </p>
+            <p><input tabindex="4" type="radio" name="choice" value="purchase" /> Консультация по покупке</p>
+        </div>
+
+        <div>
+            <textarea tabindex="5" name="textinput" id="area" placeholder="Описание проблемы"></textarea>
+        </div>
+
+        <br />
+        <div>
+            <p>Средство связи</p>
+            <select name="communication" id="communication">
+                <option selected value="email">Почта</option>
+                <option value="telegram">Телеграм</option>
+            </select>
+        </div>
+
+        <br />
+        <div>
+            <button type="submit">Отправить</button>
+        </div>
+
+    </form>
+
+    <br />
     <footer>
         <a target="_blank" href="https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D1%80%D0%B0%D0%BA%D0%B0%D0%BB">
             Википедия
